@@ -1,0 +1,11 @@
+id = "com.example.myagent"
+version = "1.0.0"
+name = { en = "MyAgent", zh = "MyAgent" }
+logo = "/res/logo.png"
+description = "Example Agent written in Python"
+entry = "src/main.py:SoccerAgent"
+debuggable = true
+
+[requirements]
+min_api_level = 10700
+models = [ "Booster T1", "Booster K1" ]
